@@ -1,0 +1,25 @@
+$footer-text:$info-text;
+$footer-icons-color:#2C2D3C;
+.footer{
+    padding: 15px 0 ;
+    
+    p{
+        color:$footer-text;
+        font-weight: $font-weight-medium;
+        font-size:1.2rem;
+        line-height: 4.1rem;
+        letter-spacing: -0.17px;
+    }
+    
+    nav{
+        a{
+            color:$footer-icons-color;
+            font-size:2rem;
+            transition: 1s linear;
+            
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+    }
+}

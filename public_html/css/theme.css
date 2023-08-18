@@ -9743,4 +9743,26 @@ header .navbar-nav a {
   font-size: 2rem;
 }
 
+.footer {
+  padding: 15px 0;
+}
+
+.footer p {
+  color: #586C88;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 4.1rem;
+  letter-spacing: -0.17px;
+}
+
+.footer nav a {
+  color: #2C2D3C;
+  font-size: 2rem;
+  transition: 1s linear;
+}
+
+.footer nav a:hover {
+  transform: rotate(360deg);
+}
+
 /*# sourceMappingURL=theme.css.map */
