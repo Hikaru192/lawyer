@@ -9765,4 +9765,14 @@ header .navbar-nav a {
   transform: rotate(360deg);
 }
 
+.about-content {
+  padding: 50px 0;
+}
+
+@media (min-width: 992px) {
+  .about-content {
+    padding: 104px 0;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
