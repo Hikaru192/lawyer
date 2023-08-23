@@ -34,4 +34,22 @@ $sizes: map-merge(
 $light:#F6F5F6;
 $dark-blue:#11284B;
 
+
+$grid-breakpoints: (
+  xs: 0,
+  xm:460px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) ;
+
+$container-max-widths: (
+  sm: 540px,
+  xm:100%,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) ;
+
 //overide bootstrap variables

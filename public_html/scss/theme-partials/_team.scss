@@ -17,7 +17,7 @@
     .team-member-info{
         margin-bottom: 3rem;
     }
-    
+
     .fa-linkedin-in{
         color:$gray-900;
         font-size:3rem;
@@ -27,6 +27,58 @@
 @media(min-width:576px){
     .team-section{
         .team-member-info{
-            margin-bottom: 10rem;}
+            margin-bottom: 10rem;
         }
     }
+}
+
+
+//team-members
+.team-members{
+    padding: 50px 0;
+
+    .team-member{
+        figure{
+            overflow: hidden;
+            img{
+                transition: 1s linear;
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+        .fa-linkedin-in{
+            bottom: 16px;
+            right: 15px;
+            font-size: 2.8rem;
+            color:$white;
+            z-index: 5;
+            &:hover{
+                text-decoration: none;
+            }
+            
+        }
+        h5{
+            a{
+                font-size: 2.2rem;
+                line-height: 2.7rem;
+                color:$body-color;
+                &:hover{
+                text-decoration: none;
+            }
+            }
+        }
+        .team-member-position{
+            color:$primary;
+            font-size:1.8rem;
+            line-height: 2.7rem;
+            font-weight: $font-weight-medium;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .team-members{
+        padding: 64px 0 133px;
+    }
+}
