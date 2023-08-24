@@ -10611,4 +10611,44 @@ header .navbar-nav a {
   }
 }
 
+.news-section {
+  padding: 50px 0;
+}
+
+.news-section .news-item h2 a {
+  color: #1E1E1E;
+  line-height: 4.6rem;
+}
+
+.news-section .news-item .news-item-description {
+  line-height: 2.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+}
+
+.news-section .news-item .read-more {
+  font-weight: 500;
+}
+
+.news-section .news-item figure {
+  overflow: hidden;
+}
+
+.news-section .news-item figure img {
+  transition: 0.5s linear;
+}
+
+.news-section .news-item figure img:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 992px) {
+  .news-section {
+    padding: 114px 0;
+  }
+  .news-item {
+    margin-bottom: 11.5rem !important;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
